@@ -49,5 +49,19 @@ object Expressions extends App {
   }
   println(aCodeBlock)
 
+  // 1. difference between "hello world" vs println("hello world")?
+  // R string vs (Unit === void)
+
+  // 2.
+  val someValue = {
+     2 < 3
+  }
+  println(someValue)
+  val someOtherValue = {
+    if (someValue) 239 else 986
+    42
+  }
+  println(someOtherValue)
+
 
 }
